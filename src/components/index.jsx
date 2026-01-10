@@ -1,0 +1,11 @@
+import Header from "./header";
+import Project from "./project";
+import About from "./about";
+import Skills from "./skills";
+import Education from "./education";
+import Projects from "./projects";
+import Footer from "./footer";
+import Sidebar from "./sidebar";
+import SkillLogo from "./skillLogo";
+import ScrollToSection from "./ScrollToSection";
+export { Header, Project, Skills, About, Education, Projects, Footer, Sidebar,SkillLogo, ScrollToSection};

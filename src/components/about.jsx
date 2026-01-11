@@ -5,8 +5,10 @@ import React from 'react';
 function About() {
   return <>
   <div id="about">
-                <div className="line"></div>
-                <p className="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum mollitia, cum fuga iusto quibusdam molestias alias aut, aliquam asperiores ea praesentium ipsa omnis suscipit corrupti eveniet esse a doloribus qui!</p>
+                {/* <div className="line"></div> */}
+                <p className="content">Second-year B.Tech student in Electronics and Instrumentation Engineering at NIT Silchar with strong interest in
+Web Development. Experienced in building responsive frontend applications using React.js and JavaScript. Strong
+command over Data Structures and Algorithms with experience in both individual and group projects</p>
             </div>
   </>
 }

@@ -15,34 +15,34 @@ function Home() {
   return (
     <>
       <div className="main-container">
-        <div className="sidebar">
+        <div className="mainSidebar">
           <Sidebar />
         </div>
 
         <div className="maincontent">
           <Header />
           <section id="about">
-            <h1 className="heding">About Me</h1>
+            <h1 className="heading underline">About Me</h1>
             <About />
           </section>
 
           <section id="skills">
-            <h1 className="heding">Skills</h1>
+            <h1 className="heading underline">Skills</h1>
             <Skills />
           </section>
 
           <section id="education">
-            <h1 className="heding">Education</h1>
+            <h1 className="heading underline">Education</h1>
             <Education />
           </section>
 
           <section id="My-Projects">
-            <h1 className="heding">My-Projects</h1>
+            <h1 className="heading underline">My-Projects</h1>
             <Projects />
           </section>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

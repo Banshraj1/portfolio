@@ -6,14 +6,16 @@ import { logos } from "../constants.js";
 function Skills() {
   return (
     <>
-      <div className="line"></div>
+      {/* <div className="line"></div> */}
       <div className="grid-container">
-        <SkillLogo input={{ skill: "HTML5", logos: logos.html }} />
-        <SkillLogo input={{ skill: "CSS3", logos: logos.css }} />
-        <SkillLogo input={{ skill: "JavaScript", logos: logos.javascript }} />
-        <SkillLogo input={{ skill: "React", logos: logos.react }} />
-        <SkillLogo input={{ skill: "Node js", logos: logos.nodejs }} />
-        <SkillLogo input={{ skill: "Git & Github", logos: logos.git }} />
+        <SkillLogo input={{ skill: "html", logos: logos.html }} />
+        <SkillLogo input={{ skill: "css", logos: logos.css }} />
+        <SkillLogo input={{ skill: "javascript", logos: logos.javascript }} />
+        <SkillLogo input={{ skill: "react", logos: logos.react }} />
+        <SkillLogo input={{ skill: "node", logos: logos.nodejs }} />
+        <SkillLogo input={{ skill: "cpp", logos: logos.cpp }} />
+        <SkillLogo input={{ skill: "git", logos: logos.git }} />
+        {/* <SkillLogo input={{ skill: "git", logos: logos.git }} /> */}
       </div>
     </>
   );

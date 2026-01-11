@@ -7,5 +7,6 @@ const logos = {
   react: `https://simpleicons.org/icons/react.svg`,
   nodejs: `https://simpleicons.org/icons/nodedotjs.svg`,
   git: `https://simpleicons.org/icons/git.svg`,
+  cpp: `https://simpleicons.org/icons/c%2B%3D`,
 };
 export { img_uri, logos };

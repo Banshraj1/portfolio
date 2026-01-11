@@ -1,12 +1,11 @@
 import React from "react";
-
 // import { Container } from './styles';
 
 function Education() {
   return (
     <>
-      <div id="education">
-        <div className="line"></div>
+      <div id="education ">
+        {/* <div className="line"></div> */}
         <div className="edtech">
           <div className="edfirst">
             <div className="year">2024-2028</div>

@@ -242,7 +242,7 @@ a:hover {
 }
 .college {
   font-style: italic;
-  color: #a0a0a0;
+  color: #c5c5c5;
   margin-bottom: 10px;
 }
 .work {
@@ -261,20 +261,21 @@ a:hover {
   border-radius: 50px;
   border: 3px solid #ffbf00;
   position: absolute;
+  background-color: #3a3a3a;
   top: 0px;
   left: 0px;
   z-index: 5;
 }
 .liner {
   position: absolute;
+  height: 100%;
   width: 2px;
   top: 0px;
   bottom: 0px;
   left: 5px;
-  border: 2px solid #3a3a3a;
+  border: 2px solid #6e6e6e;
+  /* border-color: #ffbf00; */
 }
-
-/* portfolio */
 
 .project-container {
   margin: 30px;

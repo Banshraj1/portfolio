@@ -8,4 +8,5 @@ import Footer from "./footer";
 import Sidebar from "./sidebar";
 import SkillLogo from "./skillLogo";
 import ScrollToSection from "./ScrollToSection";
-export { Header, Project, Skills, About, Education, Projects, Footer, Sidebar,SkillLogo, ScrollToSection};
+import TechEdu from "./techedu";
+export { Header, Project, Skills, About, Education, Projects, Footer, Sidebar,SkillLogo, ScrollToSection,TechEdu};
